@@ -103,11 +103,11 @@ void transfrom(liste *l){
     }
 int main(){
 liste *l1=NULL;
-int n;
+int nbm;
 int nbr;
   printf("entrer  le nombre  des elements de la liste 1 :\n ");
-  scanf("%d",&n);
-  for(int i=0;i<n;i++){
+  scanf("%d",&nbm);
+  for(int i=0;i<nbm;i++){
     printf("entrer le nombre %d de la liste:\n",i+1);
     scanf("%d",&nbr);
     l1=ajoutfin(l1,nbr);
