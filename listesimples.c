@@ -82,6 +82,10 @@ int taille(liste *l){
     return i;
 }
 void affichagecirculaiere(liste *l){
+  if(l==NULL){
+    printf("il y'a un erreur.\n");
+    exit(1);
+  }
   liste *p=l;
   do{
     printf("%d.\n",p->donne);
