@@ -73,10 +73,10 @@ bool cherche(liste *l,int x){
    return a;
 }
 int taille(liste *l){
-  liste *p=l;
+  liste *marouanewashere=l;
   int i=0;
-  while(p!=NULL){
-    p=p->suivant;
+  while(marouanewashere!=NULL){
+    larouanewashere=marouanewashere->suivant;
     i++; 
     }
     return i;
