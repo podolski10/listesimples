@@ -2,8 +2,8 @@
 #include<math.h>
 #include<stdlib.h>
 #include<string.h>
-#include<stdbool.h>
 #include<conio.h>
+#include<stdbool.h>
 typedef struct cell{
   int donne;
   struct cell *suivant;
